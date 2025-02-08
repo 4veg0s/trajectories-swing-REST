@@ -1,0 +1,32 @@
+{
+  "fileName": "traject5.json",
+  "trajectoryPoints": [
+    {
+      "time": 5.000,
+      "coordinateX": 1776091.0,
+      "coordinateY": 3924537.2,
+      "coordinateZ": 4564398.2,
+      "velocityX": 1.671,
+      "velocityY": 4.251,
+      "velocityZ": 4.931
+    },
+    {
+      "time": 6.000,
+      "coordinateX": 1776106.2,
+      "coordinateY": 3924538.9,
+      "coordinateZ": 4565342.1,
+      "velocityX": 3.707,
+      "velocityY": 6.415,
+      "velocityZ": 7.780
+    },
+    {
+      "time": 7.000,
+      "coordinateX": 1776141.1,
+      "coordinateY": 3924530.0,
+      "coordinateZ": 4565122.4,
+      "velocityX": 4.244,
+      "velocityY": 9.116,
+      "velocityZ": 10.318
+    }
+  ]
+}
