@@ -42,10 +42,10 @@ public class TrajectoryController {
 
     @GetMapping("/trajectories/{id}")
     public ResponseEntity<Trajectory> getTrajectoryById(@PathVariable("id") long id) {
-        Optional<Trajectory> tutorialData = trajectoryRepository.findById(id);
+        Optional<Trajectory> trajectoryData = trajectoryRepository.findById(id);
 
-        if (tutorialData.isPresent()) {
-            return new ResponseEntity<>(tutorialData.get(), HttpStatus.OK);
+        if (trajectoryData.isPresent()) {
+            return new ResponseEntity<>(trajectoryData.get(), HttpStatus.OK);
         } else {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
